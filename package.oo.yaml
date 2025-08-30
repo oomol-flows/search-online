@@ -4,6 +4,8 @@ scripts:
     npm install
     poetry install --no-root
 name: search-online
-description: Search or crawl data for you
+description: Enter the content you want to search and return reliable search information
 displayName: search-online
 icon: ./icon.png
+repository: https://github.com/oomol-flows/search-online.git
+releaseNotes: update

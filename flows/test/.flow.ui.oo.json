@@ -1,13 +1,5 @@
 {
   "nodes": {
-    "crawler#1": {
-      "rfNode": {
-        "position": {
-          "x": 235,
-          "y": 149
-        }
-      }
-    },
     "search#1": {
       "rfNode": {
         "position": {
