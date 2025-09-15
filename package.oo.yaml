@@ -1,11 +1,11 @@
-version: 0.0.3
+version: 0.0.4
 scripts:
   bootstrap: |
     npm install
     poetry install --no-root
 name: search-online
-description: Enter the content you want to search and return reliable search information
-displayName: search-online
+description: "%key%"
+displayName: "%search-online%"
 icon: ./icon.png
 repository: https://github.com/oomol-flows/search-online.git
 releaseNotes: update
