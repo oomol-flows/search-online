@@ -15,9 +15,9 @@ export default async function (
 ): Promise<Outputs> {
 
   // Get API key - through context in OOMOL environment
-  const apiKey = context.OOMOL_LLM_ENV.apiKey;
+  const apiKey = await context.getOomolToken();
 
-  const apiUrl = "https://console.oomol.com/api/tasks/jina/reader";
+  const apiUrl = "https://llm.oomol.com/api/tasks/jina/reader";
 
 
   // Build request body
