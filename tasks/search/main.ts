@@ -42,6 +42,7 @@ export default async function (
 
     return { content };
   } catch (error) {
-    throw new Error(`Request failed: ${error.message}`);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    throw new Error(`Request failed: ${errorMessage}`);
   }
 }
